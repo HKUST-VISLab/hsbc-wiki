@@ -1,10 +1,16 @@
 ## Database collections
-`station` `air_station` `weather_code` `air_quality` `current_weather` `forecast_weather` `last_update`
+- station
+- air_station
+- weather_code
+- air_quality
+- current_weather
+- forecast_weather
+- last_update
 ***
 ### station
-54 weather stations
-16 among them has forecast_weather info
-others only have current_weather info
+###### 54 weather stations
+###### 16 among them has forecast_weather info
+###### others only have current_weather info
   * _id: an object id created by mongodb
   * longitude: string, to the sixth decimal point
   * latitude: string, to the sixth decimal point
