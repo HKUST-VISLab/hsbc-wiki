@@ -1,5 +1,11 @@
 ## Database collections
-`station` `air_station` `weather_code` `air_quality` `current_weather` `forecast_weather` `last_update`
+* station
+* air_station
+* weather_code
+* air_quality
+* current_weather
+* forecast_weather
+* last_update 
 ***
 ### station
 54 weather stations
@@ -8,12 +14,12 @@ others only have current_weather info
   * _id: an object id created by mongodb
   * longitude: string, to the sixth decimal point
   * latitude: string, to the sixth decimal point
-  * webcam_angle: str, a multiple of 45, between [0, 360]
+  * webcam_angle: string, a multiple of 45, between [0, 360]
   * has_forecast: bool
   * wind_longitude: string, "" or a number to the sixth decimal point
   * wind_latitude: string, "" or a number to the sixth decimal point
   * station_code: string, three uppercase letter
-  * station_name: string, simplied chinese
+  * station_name: string, simplified Chinese
 
 an example
 >      {
@@ -31,7 +37,7 @@ an example
 ### air_station
 16 air quality stations
   * _id: an object id created by mongodb
-  * station_name: string, a capitalized english name
+  * station_name: string, a capitalized English name
 
 an example
 >      {
@@ -42,9 +48,9 @@ an example
 ### weather_code
   * _id: an object id created by mongodb
   * code: string, 2 digitals
-  * schi: string, simplified chinese
-  * tchi: string, traditional chinese
-  * eng: string, capitalized english
+  * schi: string, simplified Chinese
+  * tchi: string, traditional Chinese
+  * eng: string, capitalized English
 
 an example
 >      {
