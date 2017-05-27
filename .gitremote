@@ -1,0 +1,12 @@
+[remote "all"]
+	url = git@github.com:HKUST-VISLab/hsbc-wiki.git
+	fetch = +refs/heads/*:refs/remotes/all/*
+	url = git@github.com:HKUST-VISLab/hsbc-web-server.wiki.git
+	url = git@github.com:HKUST-VISLab/hsbc-back-end.wiki.git
+	url = git@github.com:HKUST-VISLab/hsebc-front-end.wiki.git
+[remote "web-server"]
+	url = git@github.com:HKUST-VISLab/hsbc-web-server.wiki.git
+	fetch = +refs/heads/*:refs/remotes/web-server/*
+[remote "front-end"]
+	url = git@github.com:HKUST-VISLab/hsbc-front-end.wiki.git
+	fetch = +refs/heads/*:refs/remotes/front-end/*
