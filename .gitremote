@@ -10,3 +10,6 @@
 [remote "front-end"]
 	url = git@github.com:HKUST-VISLab/hsbc-front-end.wiki.git
 	fetch = +refs/heads/*:refs/remotes/front-end/*
+[remote "back-end"]
+	url = git@github.com:HKUST-VISLab/hsbc-back-end.wiki.git
+	fetch = +refs/heads/*:refs/remotes/back-end/*
