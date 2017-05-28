@@ -84,7 +84,7 @@ See the example of way
 >            "hk80" : ["816345.067", "834038.674"]
 >      }
 
-### hk_links
+### hk_link
 All the links used for the "TRAFFIC SPEED MAP", the description can be found in Ref1 and the raw data can be found in Ref2
 Ref1: https://data.gov.hk/en-data/dataset/hk-td-tis-traffic-speed-map
 Ref2: http://www.gov.hk/en/theme/psi/datasets/tsm_link_and_node_info_v2.xls
