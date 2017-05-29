@@ -1,4 +1,4 @@
-## Database collections
+## Database: hk_weather_data
 
 - station
 - air_station
