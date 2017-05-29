@@ -14,8 +14,7 @@
 ###### 16 among them has forecast_weather info
 ###### others only have current_weather info
   * _id: an object id created by mongodb
-  * longitude: string, to the sixth decimal point
-  * latitude: string, to the sixth decimal point
+  * loc: [latitude, longitude], where longitude and latitude are string, to the sixth decimal point
   * webcam_angle: string, a multiple of 45, between [0, 360]
   * has_forecast: bool
   * wind_longitude: string, "" or a number to the sixth decimal point
@@ -26,12 +25,11 @@
 an example
 >      {
 >          "_id" : ObjectId("59145f9ae177d259648c7fc6"), 
->          "longitude" : "114.174297",
+>          "loc" : ["22.301944", "114.174297"],
 >          "webcam_angle" : "0",
 >          "has_forecast" : true,
 >          "wind_longitude" : "",
 >          "station_code" : "hko",
->          "latitude" : "22.301944",
 >          "wind_latitude" : "",
 >          "station_name" : "香港天文台"
 >      }
@@ -111,23 +109,21 @@ an example
 ### forecast_weather
 
   * _id: an object id created by mongdb,
-  * longitude: num, to the third decimal point,
+  * loc: [latitude, longitude], where longitude and latitude are float, to the sixth decimal point
   * daily_forecast: an array of 10 objects,
   * hourly_weather_forecast: an array of 231 objects,
   * model_time: string, time in the format "%Y-%m-%d %H:%M:%S", 
-  * station_code: string, three uppercase letter, ,
-  * latitude: num, to the third decimal point
+  * station_code: string, three uppercase letter, 
   * last_modified: string, time in the format "%Y-%m-%d %H:%M:%S", 
 
 an example
 >      {
 >          "_id" : ObjectId("59145f9dda8f5d922aa33820"),
->          "longitude" : 114.174,
+>          "loc" : [22.529, 114.174],
 >          "daily_forecast" : [object_0, object_1, ... ,object_9 ],
 >          "hourly_weather_forecast" : [object_0, object_1, ... ,object_230 ],
 >          "model_time" : "2017-05-10 12:00:00",
 >          "station_code" : "TKL",
->          "latitude" : 22.529,
 >          "last_modified" : "2017-05-11 20:55:28"
 >      }
 
