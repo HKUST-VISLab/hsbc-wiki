@@ -5,7 +5,7 @@
 - AWS_YL
 - AWS_TC
 
-
+***
 ### AWS_UST_PIER(automatic weather station, HKUST PIER)
   * _id: an object id created by mongodb
   * update_date: string, date in the format of "%Y-%m-%d"  
@@ -32,8 +32,8 @@ an example
 >          "Relative Humidity" : 70.0,
 >          "RSP & Ozone" : 70.0
 >      }
-***
 
+***
 ### AWS_UST_SEPO(automatic weather station, HKUST SEPO)
   * _id: an object id created by mongodb
   * update_date: string, date in the format of "%Y-%m-%d"  
@@ -46,8 +46,8 @@ an example
 >          "WS" : 1.0,
 >          "WD" : "NE"
 >      }
-***
 
+***
 ### AWS_YL(automatic weather station, Yuen Long)
   * _id: an object id created by mongodb
   * update_date: string, date in the format of "%Y-%m-%d"  
@@ -78,6 +78,7 @@ an example
 >          "Nitrate & Sulfate" : 1.0,
 >          "RSP & Ozone" : 70.0
 >      }
+
 ***
 ### AWS_TC(automatic weather station, Tung Chung)
   * _id: an object id created by mongodb
