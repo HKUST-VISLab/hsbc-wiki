@@ -1,12 +1,13 @@
 ## Database: hk_AirQuality_AutomaticWeatherStation_data
 
-- AWS_UST_PIER
-- AWS_UST_SEPO
-- AWS_YL
-- AWS_TC
+- AWS_UST_PIER: automatic weather station, HKUST PIER
+- AWS_UST_SEPO: automatic weather station, HKUST SEPO
+- AWS_UST_TOWER_B: automatic weather station, HKUST TOWER B
+- AWS_YL: automatic weather station, Yuen Long
+- AWS_TC: automatic weather station, Tung Chung
 
 ***
-### AWS_UST_PIER(automatic weather station, HKUST PIER)
+### AWS_UST_PIER
   * _id: an object id created by mongodb
   * update_date: string, date in the format of "%Y-%m-%d"  
   * WS(Wind Spd): num (m/s), to the first decimal point 
@@ -34,7 +35,7 @@ an example
 >      }
 
 ***
-### AWS_UST_SEPO(automatic weather station, HKUST SEPO)
+### AWS_UST_SEPO
   * _id: an object id created by mongodb
   * update_date: string, date in the format of "%Y-%m-%d"  
   * WS(Wind Spd): num (m/s), to the first decimal point 
@@ -47,8 +48,26 @@ an example
 >          "WD" : "NE"
 >      }
 
+
 ***
-### AWS_YL(automatic weather station, Yuen Long)
+### AWS_UST_TOWER_B
+  * _id: an object id created by mongodb
+  * update_date: string, date in the format of "%Y-%m-%d"  
+  * temp(Temperature): num (Deg. C) , to the first decimal point 
+  * humidity: num(%), to the first decimal point
+  * visibility: num(km), to the third decimal point
+an example
+>      {
+>          "_id" : ObjectId("59145f9bda8f5d922aa337da"),
+>          "update_date" : "2017-06-06",
+>          "temp" : 1.0,
+>          "humidity" : 70.0,
+>          "visibility" : 16.000
+>      }
+
+
+***
+### AWS_YL
   * _id: an object id created by mongodb
   * update_date: string, date in the format of "%Y-%m-%d"  
   * WS(Wind Spd): num (m/s), to the first decimal point 
@@ -80,7 +99,7 @@ an example
 >      }
 
 ***
-### AWS_TC(automatic weather station, Tung Chung)
+### AWS_TC
   * _id: an object id created by mongodb
   * update_date: string, date in the format of "%Y-%m-%d"  
   * WS(Wind Spd): num (m/s), to the first decimal point 
