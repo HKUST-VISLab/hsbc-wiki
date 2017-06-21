@@ -13,8 +13,9 @@ Our goal is to empower the public with personalised air quality information. Air
 https://github.com/HKUST-VISLab/hsbc-wiki/blob/master/schematics-949x1024.png
 )
 
+## GitHub Repo: Urban Informatics and Big Data Analytics
 
-## How to use
+Created by HKUST VISLab, this repo is for Task 3 (Urban Informatics and Big Data Analytics). We will use urban informatics and big data analytics to provide dynamic adjustment of the PATH/ADMS-urban output to better take into account real-time changes in emissions or other factors affecting local AQ variations. 
 
 Please run the command bellow after cloning this repository.
 
