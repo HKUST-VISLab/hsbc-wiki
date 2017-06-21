@@ -1,3 +1,19 @@
+![logo](https://github.com/HKUST-VISLab/hsbc-wiki/blob/master/praise_201703_tagline-1024x230.png
+)
+
+
+#
+Personalised Real-time Air-quality Informatics System for Exposure Hong Kong (PRAISE-HK) is a 5-year project funded by the HSBC 150th Anniversary Charity Programme. Led by HKUST’s Institute for the Environment, PRAISE-HK aims to develop an online platform and a mobile app, to empower the public with personalized air quality information. It will allow users to plan their daily commute or activities with the lowest health risk from air pollution.
+
+## Project Goal
+Our goal is to empower the public with personalised air quality information. Air Pollution is a major environmental problem, for Hong Kong and the world. Citizens often feel that there is not much they can do to protect themselves against the adverse effects of air pollution. That is not true. By combining state-of-the- art technologies in personal tracking by mobile devices, air quality forecasts, urban informatics, transport modelling, big data analytics, and exposure and health impact assessments, we will create a series of innovative mobile apps to let the public in Hong Kong know more about the air quality variations around them in the city, and also what they can do personally to reduce their exposure to the harmful pollutants.
+
+## Project Tasks  
+![logo](
+https://github.com/HKUST-VISLab/hsbc-wiki/blob/master/schematics-949x1024.png
+)
+
+
 ## How to use
 
 Please run the command bellow after cloning this repository.
