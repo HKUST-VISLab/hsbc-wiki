@@ -216,6 +216,8 @@ Air-quality data are collected from 14 weather station monitoring the air qualit
 <table style="text-align:left;">
 <tbody>
 	<tr>
+		<td><b>AQI</b></td>
+		<td><b>AQI</b></td>
 		<td><b>O<sub>3</sub> (ppb)</b></td>
 		<td><b>O<sub>3</sub> (ppb)</b></td>
 		<td><b>PM<sub>2.5</sub> (µg/m<sup>3</sup>)</b></td>
@@ -223,10 +225,10 @@ Air-quality data are collected from 14 weather station monitoring the air qualit
 		<td><b>CO (ppm)</b></td>
 		<td><b>SO<sub>2</sub> (ppb)</b></td>
 		<td><b>NO<sub>2</sub> (ppb)</b></td>
-		<td><b>AQI</b></td>
-		<td><b>AQI</b></td>
 	</tr>
 	<tr>
+		<td><i>I<sub>low</sub></i> - <i>I<sub>high</sub></i></td>
+		<td><b>Category</b></td>
 		<td><i>C<sub>low</sub></i> - <i>C<sub>high</sub> (avg)</i></td>
 		<td><i>C<sub>low</sub></i> - <i>C<sub>high</sub> (avg)</i></td>
 		<td><i>C<sub>low</sub></i>- <i>C<sub>high</sub> (avg)</i></td>
@@ -234,10 +236,10 @@ Air-quality data are collected from 14 weather station monitoring the air qualit
 		<td><i>C<sub>low</sub></i> - <i>C<sub>high</sub> (avg)</i></td>
 		<td><i>C<sub>low</sub></i> - <i>C<sub>high</sub> (avg)</i></td>
 		<td><i>C<sub>low</sub></i> - <i>C<sub>high</sub> (avg)</i></td>
-		<td><i>I<sub>low</sub></i> - <i>I<sub>high</sub></i></td>
-		<td><b>Category</b></td>
 	</tr>
 	<tr>
+		<td>0-50</td>
+		<td style="background:#00e400;">Good</td>
 		<td>0-54 (8-hr)</td>
 		<td>-</td>
 		<td>0.0-12.0 (24-hr)</td>
@@ -245,10 +247,10 @@ Air-quality data are collected from 14 weather station monitoring the air qualit
 		<td>0.0-4.4 (8-hr)</td>
 		<td>0-35 (1-hr)</td>
 		<td>0-53 (1-hr)</td>
-		<td>0-50</td>
-		<td style="background:#00e400;">Good</td>
 	</tr>
 	<tr>
+		<td>51-100</td>
+		<td style="background:#ff0;">Moderate</td>
 		<td>55-70 (8-hr)</td>
 		<td>-</td>
 		<td>12.1-35.4 (24-hr)</td>
@@ -256,10 +258,10 @@ Air-quality data are collected from 14 weather station monitoring the air qualit
 		<td>4.5-9.4 (8-hr)</td>
 		<td>36-75 (1-hr)</td>
 		<td>54-100 (1-hr)</td>
-		<td>51-100</td>
-		<td style="background:#ff0;">Moderate</td>
 	</tr>
 	<tr>
+		<td>101-150</td>
+		<td style="background:#ff7e00;">Unhealthy for Sensitive Groups</td>
 		<td>71-85 (8-hr)</td>
 		<td>125-164 (1-hr)</td>
 		<td>35.5-55.4 (24-hr)</td>
@@ -267,10 +269,10 @@ Air-quality data are collected from 14 weather station monitoring the air qualit
 		<td>9.5-12.4 (8-hr)</td>
 		<td>76-185 (1-hr)</td>
 		<td>101-360 (1-hr)</td>
-		<td>101-150</td>
-		<td style="background:#ff7e00;">Unhealthy for Sensitive Groups</td>
 	</tr>
 	<tr>
+		<td>151-200</td>
+		<td style="background:#f00; color:#fff;">Unhealthy</td>
 		<td>86-105 (8-hr)</td>
 		<td>165-204 (1-hr)</td>
 		<td>55.5-150.4 (24-hr)</td>
@@ -278,10 +280,10 @@ Air-quality data are collected from 14 weather station monitoring the air qualit
 		<td>12.5-15.4 (8-hr)</td>
 		<td>186-304 (1-hr)</td>
 		<td>361-649 (1-hr)</td>
-		<td>151-200</td>
-		<td style="background:#f00; color:#fff;">Unhealthy</td>
 	</tr>
 	<tr>
+		<td>201-300</td>
+		<td style="background:#99004c; color:#fff;">Very Unhealthy</td>
 		<td>106-200 (8-hr)</td>
 		<td>205-404 (1-hr)</td>
 		<td>150.5-250.4 (24-hr)</td>
@@ -289,10 +291,10 @@ Air-quality data are collected from 14 weather station monitoring the air qualit
 		<td>15.5-30.4 (8-hr)</td>
 		<td>305-604 (24-hr)</td>
 		<td>650-1249 (1-hr)</td>
-		<td>201-300</td>
-		<td style="background:#99004c; color:#fff;">Very Unhealthy</td>
 	</tr>
 	<tr>
+		<td>301-400</td>
+		<td style="background:#7e0023; color:#fff;" rowspan="2">Hazardous</td>
 		<td>-</td>
 		<td>405-504 (1-hr)</td>
 		<td>250.5-350.4 (24-hr)</td>
@@ -300,10 +302,10 @@ Air-quality data are collected from 14 weather station monitoring the air qualit
 		<td>30.5-40.4 (8-hr)</td>
 		<td>605-804 (24-hr)</td>
 		<td>1250-1649 (1-hr)</td>
-		<td>301-400</td>
-		<td style="background:#7e0023; color:#fff;" rowspan="2">Hazardous</td>
 	</tr>
 	<tr>
+		<td>401-500</td>
+		<td></td>
 		<td>-</td>
 		<td>505-604 (1-hr)</td>
 		<td>350.5-500.4 (24-hr)</td>
@@ -311,7 +313,6 @@ Air-quality data are collected from 14 weather station monitoring the air qualit
 		<td>40.5-50.4 (8-hr)</td>
 		<td>805-1004 (24-hr)</td>
 		<td>1650-2049 (1-hr)</td>
-		<td>401-500</td>
 	</tr>
 	</tbody>
 </table>
