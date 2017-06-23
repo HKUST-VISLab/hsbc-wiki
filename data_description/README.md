@@ -24,7 +24,9 @@ Air-quality data are collected from 14 weather station monitoring the air qualit
 		</th>
    </tr>
     <tr>
-		<th><p><strong>Low</strong></p></th>
+		<th>
+		<a><img src="https://github.com/HKUST-VISLab/hsbc-wiki/blob/master/data_description/img/low.png"></a>
+		 </th>
 		<th>
 		<p><strong>1–3</strong></p>
 		</th>
@@ -36,7 +38,7 @@ Air-quality data are collected from 14 weather station monitoring the air qualit
 		</th>
    </tr>
    <tr>
-		<th><p><strong>Moderate</strong></p></th>
+		<th><a><img src="https://github.com/HKUST-VISLab/hsbc-wiki/blob/master/data_description/img/low.png"></a></th>
 		<th>
 		<p><strong>4–6</strong></p>
 		</th>
@@ -48,7 +50,7 @@ Air-quality data are collected from 14 weather station monitoring the air qualit
 		</th>
    </tr>
    <tr>
-		<th><p><strong>High</strong></p></th>
+		<th><a><img src="https://github.com/HKUST-VISLab/hsbc-wiki/blob/master/data_description/img/low.png"></a></th>
 		<th>
 		<p><strong>7-10</strong></p>
 		</th>
@@ -60,7 +62,7 @@ Air-quality data are collected from 14 weather station monitoring the air qualit
 		</th>
    </tr>
    <tr>
-		<th><p><strong>Very high</strong></p></th>
+		<th><a><img src="https://github.com/HKUST-VISLab/hsbc-wiki/blob/master/data_description/img/low.png"></a></th>
 		<th>
 		<p><strong>Above 10</strong></p>
 		</th>
