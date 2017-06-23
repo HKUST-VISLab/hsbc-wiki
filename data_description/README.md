@@ -333,5 +333,8 @@ There are the following types of data collection:
  <a href="http://eesc.columbia.edu/courses/ees/climate/labs/vostok/">Vostok Ice Core Data</a>, and 
  monthly rainfall data in Hong Kong,  
  
-##HKO Warnings and Signals Data 
+## HKO Warnings and Signals Data 
 In Hong Kong, there are a <a href="http://www.hko.gov.hk/wxinfo/climat/warndb/warndb3_e.shtml">HKO Warnings and Signals Database</a> that stores Rainstorm Warnings, Historical Typhoon Warnings, as well as Historical Air Pollution Interesting Cases. Commencing 10 October 2011, the Warnings and Signals Database would also display the provisional records of recent warnings/signals in addition to the official records.  Provisional records will normally be checked during the first working day after the expiry or cancellation of the warning/signal for confirmation to be accepted as official records.
+
+## Traffic Data
+
