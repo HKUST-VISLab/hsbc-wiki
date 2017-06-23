@@ -217,7 +217,7 @@ Air-quality data are collected from 14 weather station monitoring the air qualit
 <tbody>
 	<tr>
 		<td><b>AQI</b></td>
-		<td><b>AQI</b></td>
+		<td rowspan="2"><b>Levels of Health Concern</b></td>
 		<td><b>O<sub>3</sub> (ppb)</b></td>
 		<td><b>O<sub>3</sub> (ppb)</b></td>
 		<td><b>PM<sub>2.5</sub> (µg/m<sup>3</sup>)</b></td>
@@ -228,7 +228,6 @@ Air-quality data are collected from 14 weather station monitoring the air qualit
 	</tr>
 	<tr>
 		<td><i>I<sub>low</sub></i> - <i>I<sub>high</sub></i></td>
-		<td><b>Category</b></td>
 		<td><i>C<sub>low</sub></i> - <i>C<sub>high</sub> (avg)</i></td>
 		<td><i>C<sub>low</sub></i> - <i>C<sub>high</sub> (avg)</i></td>
 		<td><i>C<sub>low</sub></i>- <i>C<sub>high</sub> (avg)</i></td>
@@ -305,7 +304,6 @@ Air-quality data are collected from 14 weather station monitoring the air qualit
 	</tr>
 	<tr>
 		<td>401-500</td>
-		<td></td>
 		<td>-</td>
 		<td>505-604 (1-hr)</td>
 		<td>350.5-500.4 (24-hr)</td>
