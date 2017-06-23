@@ -124,10 +124,100 @@ Air-quality data are collected from 14 weather station monitoring the air qualit
 <table width="100%">
 <tbody width="100%">
    <tr>
-		<th><p><strong>AQHI</strong></p></th>
+		<th><p><strong>AQI</strong></p></th>
 		<th>
 		<p><strong>Levels of Health Concern</strong></p>
 		</th>
+		<th>
+		  <p><strong>Health Advice</strong></p>
+		</th>
+		<th>
+		  <p><strong>Color</strong></p>
+		</th>
+   </tr>
+    <tr>
+		<th><p><strong>0–50</strong></p></th>
+		<th>
+		<p><strong>Good</strong></p>
+		</th>
+		<th>
+		  <p>空氣污染風險很少</p>
+		</th>
+		<th>
+		  <p>Green</p>
+		</th>
+   </tr>
+   <tr>
+		<th><p><strong>51 to 100</strong></p></th>
+		<th>
+		<p><strong>Moderate</strong></p>
+		</th>
+		<th>
+		  <p>空氣質素可以接受</p>
+		</th>
+		<th>
+		  <p>Yellow</p>
+		</th>
+   </tr>
+   <tr> 
+		<th><p><strong>101 to 150</strong></p></th>
+		<th>
+		<p><strong>Unhealthy for Sensitive Groups</strong></p>
+		</th>
+		<th>
+		  <p>高危人士可能出現健康反應。公眾暫時未受影響。</p>
+		</th>
+		<th>
+		  <p>Orange</p>
+		</th>
+   </tr>
+   <tr>
+		<th><p><strong>151 to 200</strong></p></th>
+		<th>
+		<p><strong>Unhealthy</strong></p>
+		</th>
+		<th>
+		  <p>高危人士可能出現較嚴重健康反應，部分公眾亦可能出現健康反應。</p>
+		</th>
+		<th>
+		  <p>Red</p>
+		</th>
+   </tr> 
+   <tr>
+		<th><p><strong>201 to 300</strong></p></th>
+		<th>
+		<p><strong>Very Unhealthy</strong></p>
+		</th>
+		<th>
+		  <p>公眾出現健康反應。</p>
+		</th>
+		<th>
+		  <p>Purple</p>
+		</th>
+   </tr>    
+   <tr>
+		<th><p><strong>301 to 500</strong></p></th>
+		<th>
+		<p><strong>Hazardous</strong></p>
+		</th>
+		<th>
+		  <p>部分公眾可能出現較嚴重健康反應。</p>
+		</th>
+		<th>
+		  <p>Maroon</p>
+		</th>
+   </tr>    
+   </tbody>
+</table>   
+
+
+
+<blockquote><p><a href="www.EPA.gov">The United States EPA</a> maintain a table of breakpoints in calculating AQI.</p></blockquote>
+<table width="100%">
+<tbody width="100%">
+   <tr>
+		<th><p><strong>O_3 (ppb)</strong></p></th>
+		<th><p><strong>O_3 (ppb)</strong></p></th>
 		<th>
 		  <p><strong>Health Advice</strong></p>
 		</th>
