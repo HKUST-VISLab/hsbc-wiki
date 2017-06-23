@@ -1,7 +1,7 @@
 ## Database: Regional_GTS_data
 
-- Regional_GTS_SYNOP: This is mainly based on surface weather information (SYNOP) available on the GTS network. There are eight plots on this page, including Precipitation, Temperature, Dew Point, Sea Level Pressure, Wind Speed, Wind Direction, Relative Humidity and Visibility. These plots are updated once every three hours.
-- Regional_GTS_METAR: This is mainly based on hourly aviation weather reports (METAR) available on the GTS network. There are six plots on this page, including Temperature, Dew Point, Wind Speed, Wind Direction, Sea Level Pressure and Visibility. These plots are updated once every hour. 
+- Regional_GTS_SYNOP: This is mainly based on surface weather information (SYNOP) available on the GTS network. There are eight plots on Regional_GTS_SYNOP, including Precipitation, Temperature, Dew Point, Sea Level Pressure, Wind Speed, Wind Direction, Relative Humidity and Visibility. These plots are updated once every three hours.
+- Regional_GTS_METAR: This is mainly based on hourly aviation weather reports (METAR) available on the GTS network. There are six plots on Regional_GTS_METAR, including Temperature, Dew Point, Wind Speed, Wind Direction, Sea Level Pressure and Visibility. These plots are updated once every hour. 
 
 ***
 ### Regional_GTS_SYNOP

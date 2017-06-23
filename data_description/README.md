@@ -120,7 +120,7 @@ Air-quality data are collected from 14 weather station monitoring the air qualit
 
 
 
-<blockquote><p> AQI (Air Quality Index) provides a number from 0-500 to indicate air quality, which is divided into six categories indicating increasing levels of health concern and providing health advice by <a href="https://cfpub.epa.gov/airnow/index.cfm?action=aqibasics.aqi">The United States EPA</a>.</p></blockquote>
+<blockquote><p>Since the Air Quality Health Index (AQHI) issued by Hong Kong Environmental Protection Department is not comparable to other regions in the world, Weather Underground of Hong Kong refers to the Air Quality Index (AQI) issued by <a href="https://cfpub.epa.gov/airnow/index.cfm?action=aqibasics.aqi">U.S. Environmental Protection Agency</a> and calculates the Air Quality Index based on air pollutant concentration data issued by Hong Kong Environmenal Protection Department. AQI provides a number from 0-500 to indicate air quality, which is divided into six categories indicating increasing levels of health concern.</p> </blockquote>
 <table width="100%">
 <tbody width="100%">
    <tr>
@@ -314,3 +314,24 @@ Air-quality data are collected from 14 weather station monitoring the air qualit
 	</tr>
 	</tbody>
 </table>
+
+
+## GTS Data
+There are two types of data: Regional_GTS_SYNOP and Regional_GTS_METAR. The former is mainly based on surface weather information (SYNOP) available on the GTS network, while the later is mainly based on hourly aviation weather reports (METAR).  
+
+Regional_GTS_SYNOP contains data including Precipitation, Temperature, Dew Point, Sea Level Pressure, Wind Speed, Wind Direction, Relative Humidity and Visibility. Regional_GTS_METAR contains data including Temperature, Dew Point, Wind Speed, Wind Direction, Sea Level Pressure and Visibility. 
+
+The former are updated once every three hours, while  the later is mainly based on hourly reports. 
+
+## Satellite Data 
+There are four types of images: Visible_South_China, Enhanced_Infra-red_South_China, Enhanced_Infra-red_Peral_River_Estuary and Aerosol_Optical_Depth_South_China. 
+
+## Climate Data
+There are the following types of data collection: 
+ <a href="https://data.giss.nasa.gov/gistemp/tabledata_v3/GLB.Ts+dSST.txt">global temperature data</a>, 
+ <a href="https://www.esrl.noaa.gov/gmd/ccgg/trends/#mlo_full">CO2 Monthly Data and Trend</a>, 
+ <a href="http://eesc.columbia.edu/courses/ees/climate/labs/vostok/">Vostok Ice Core Data</a>, and 
+ monthly rainfall data in Hong Kong,  
+ 
+##HKO Warnings and Signals Data 
+In Hong Kong, there are a <a href="http://www.hko.gov.hk/wxinfo/climat/warndb/warndb3_e.shtml">HKO Warnings and Signals Database</a> that stores Rainstorm Warnings, Historical Typhoon Warnings, as well as Historical Air Pollution Interesting Cases. Commencing 10 October 2011, the Warnings and Signals Database would also display the provisional records of recent warnings/signals in addition to the official records.  Provisional records will normally be checked during the first working day after the expiry or cancellation of the warning/signal for confirmation to be accepted as official records.
