@@ -8,7 +8,7 @@ The fusion of heterogeneous datasets coming from different sources. For example,
 Air-quality data are collected from 14 weather station monitoring the air quality in different regions in Hong Kong, "CL"(Central), "CB"(Causeway Bay), "MK"(Mong Kok),  "TC"(Tung Chung), "YL"(Yuen Long), "TW"(Tsuen Wan), "KC"(Kwai Chung), "CW"(Central Western), "SP"(Sham Shui Po), "TP"(Tai Po), "ST"(Sha Tin), "KT"(Kwun Tong), "EN"(Eastern), "TM"(Tap Mun). There are also 5 automatic weather station. The following data format also works for both static AQ data and AQ prediction. 
 
 
-<blockquote><p> AQHI (Air Quality Health Index) provides a number from 1 to 10+ to indicate the level of health risk associated with local air quality. The AQHIs are grouped into five AQHI health risk categories with health advice provided from <strong>Hong Kong EPD</strong> <a href="http://www.aqhi.gov.hk/en/health-advice/sub-health-advice.html"></a> </p></blockquote>
+<blockquote><p> AQHI (Air Quality Health Index) provides a number from 1 to 10+ to indicate the level of health risk associated with local air quality. The AQHIs are grouped into five AQHI health risk categories with health advice provided from <a href="http://www.aqhi.gov.hk/en/health-advice/sub-health-advice.html"><strong>Hong Kong EPD</strong> </a>. </p></blockquote>
 <table width="100%">
 <tbody width="100%">
    <tr>
@@ -80,7 +80,7 @@ Air-quality data are collected from 14 weather station monitoring the air qualit
 		</th>
    </tr>
    <tr>
-		<th><a><img src="https://github.com/HKUST-VISLab/hsbc-wiki/blob/master/data_description/img/veryhigh.png"></a></th>
+		<th><a><img src="https://github.com/HKUST-VISLab/hsbc-wiki/blob/master/data_description/img/very_high.png"></a></th>
 		<th>
 		<p><strong>8-10</strong></p>
 		</th>
