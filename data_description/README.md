@@ -8,7 +8,7 @@ The fusion of heterogeneous datasets coming from different sources. For example,
 Air-quality data are collected from 14 weather station monitoring the air quality in different regions in Hong Kong, "CL"(Central), "CB"(Causeway Bay), "MK"(Mong Kok),  "TC"(Tung Chung), "YL"(Yuen Long), "TW"(Tsuen Wan), "KC"(Kwai Chung), "CW"(Central Western), "SP"(Sham Shui Po), "TP"(Tai Po), "ST"(Sha Tin), "KT"(Kwun Tong), "EN"(Eastern), "TM"(Tap Mun). There are also 5 automatic weather station. The following data format also works for both static AQ data and AQ prediction. 
 
 
-<blockquote><p> AQHI (Air Quality Health Index) provides a number from 1 to 10+ to indicate the level of health risk associated with local air quality. The AQHIs are grouped into five AQHI health risk categories with health advice provided from <a href="http://www.aqhi.gov.hk/en/health-advice/sub-health-advice.html"><strong>Hong Kong EPD</strong> </a>. </p></blockquote>
+<blockquote><p> AQHI (Air Quality Health Index) provides a number from 1 to 10+ to indicate the air quality, which is grouped into five health risk categories with <a href="http://www.aqhi.gov.hk/en/health-advice/sub-health-advice.html"><strong>health advice from Hong Kong EPD</strong> </a>. </p></blockquote>
 <table width="100%">
 <tbody width="100%">
    <tr>
@@ -120,69 +120,93 @@ Air-quality data are collected from 14 weather station monitoring the air qualit
 
 
 
-<blockquote><p> AQI (Air Quality Index) provides a number from 1 to 10+ to indicate the level of health risk associated with local air quality. </p></blockquote>
+<blockquote><p> AQI (Air Quality Index) provides a number from 0-500 to indicate air quality, which is divided into six categories indicating increasing levels of health concern and providing health advice by <a href="www.EPA.gov">The United States EPA</a>.</p></blockquote>
 <table width="100%">
 <tbody width="100%">
    <tr>
-		<th><p><strong>Health Risk</strong></p></th>
+		<th><p><strong>AQHI</strong></p></th>
 		<th>
-		<p><strong>AQHI</strong></p>
+		<p><strong>Levels of Health Concern</strong></p>
 		</th>
 		<th>
-		  <p>Health Messages (<p><strong>Risk Population</strong>)  </p>
+		  <p><strong>Health Advice</strong></p>
 		</th>
 		<th>
-		  <p>Health Messages (<p><strong>General Population</strong>)</p>
+		  <p><strong>Color</strong></p>
 		</th>
    </tr>
     <tr>
-		<th><p><strong>Low</strong></p></th>
+		<th><p><strong>0–50</strong></p></th>
 		<th>
-		<p><strong>1–3</strong></p>
+		<p><strong>Good</strong></p>
 		</th>
 		<th>
-		  <p><strong>Enjoy</strong> your usual outdoor activities.</p>
+		  <p>空氣污染風險很少</p>
 		</th>
 		<th>
-		  <p><strong>Ideal</strong> air quality for outdoor activities</p>
-		</th>
-   </tr>
-   <tr>
-		<th><p><strong>Moderate</strong></p></th>
-		<th>
-		<p><strong>4–6</strong></p>
-		</th>
-		<th>
-		  <p><strong>Consider reducing</strong> or rescheduling strenuous activities outdoors if you are experiencing symptoms.</p>
-		</th>
-		<th>
-		  <p><strong>No need to modify</strong> your usual outdoor activities unless you experience symptoms such as coughing and throat irritation.</p>
+		  <p>Green</p>
 		</th>
    </tr>
    <tr>
-		<th><p><strong>High</strong></p></th>
+		<th><p><strong>51 to 100</strong></p></th>
 		<th>
-		<p><strong>7-10</strong></p>
+		<p><strong>Moderate</strong></p>
 		</th>
 		<th>
-		  <p><strong>Reduce</strong> or reschedule strenuous activities outdoors. Children and the elderly should also take it easy.</p>
+		  <p>空氣質素可以接受</p>
 		</th>
 		<th>
-		  <p><strong>Consider reducing</strong> or rescheduling strenuous activities outdoors if you experience symptoms such as coughing and throat irritation.</p>
+		  <p>Yellow</p>
+		</th>
+   </tr>
+   <tr> 
+		<th><p><strong>101 to 150</strong></p></th>
+		<th>
+		<p><strong>Unhealthy for Sensitive Groups</strong></p>
+		</th>
+		<th>
+		  <p>高危人士可能出現健康反應。公眾暫時未受影響。</p>
+		</th>
+		<th>
+		  <p>Orange</p>
 		</th>
    </tr>
    <tr>
-		<th><p><strong>Very high</strong></p></th>
+		<th><p><strong>151 to 200</strong></p></th>
 		<th>
-		<p><strong>Above 10</strong></p>
+		<p><strong>Unhealthy</strong></p>
 		</th>
 		<th>
-		  <p><strong>Avoid</strong> strenuous activities outdoors. Children and the elderly should also avoid outdoor physical exertion.</p>
+		  <p>高危人士可能出現較嚴重健康反應，部分公眾亦可能出現健康反應。</p>
 		</th>
 		<th>
-		  <p><strong>Reduce</strong> or reschedule strenuous activities outdoors, especially if you experience symptoms such as coughing and throat irritation.</p>
+		  <p>Red</p>
 		</th>
    </tr> 
+   <tr>
+		<th><p><strong>201 to 300</strong></p></th>
+		<th>
+		<p><strong>Very Unhealthy</strong></p>
+		</th>
+		<th>
+		  <p>公眾出現健康反應。</p>
+		</th>
+		<th>
+		  <p>Purple</p>
+		</th>
+   </tr>    
+   <tr>
+		<th><p><strong>301 to 500</strong></p></th>
+		<th>
+		<p><strong>Hazardous</strong></p>
+		</th>
+		<th>
+		  <p>部分公眾可能出現較嚴重健康反應。</p>
+		</th>
+		<th>
+		  <p>Maroon</p>
+		</th>
+   </tr>    
    </tbody>
 </table>   
 	
