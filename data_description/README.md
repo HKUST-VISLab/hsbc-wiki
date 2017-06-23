@@ -213,84 +213,105 @@ Air-quality data are collected from 14 weather station monitoring the air qualit
 
 
 <blockquote><p><a href="www.EPA.gov">The United States EPA</a> maintain a table of breakpoints in calculating AQI.</p></blockquote>
-<table class="wikitable">
-<caption>AQI Category, Pollutants and Health Breakpoints</caption>
-<tr>
-<td style="background: #9cf; colour: black; font-weight:bold">AQI Category (Range)</td>
-<td style="background: #9cf; colour: black; font-weight:bold">PM<sub>10</sub> (24hr)</td>
-<td style="background: #9cf; colour: black; font-weight:bold">PM<sub>2.5</sub> (24hr)</td>
-<td style="background: #9cf; colour: black; font-weight:bold">NO<sub>2</sub> (24hr)</td>
-<td style="background: #9cf; colour: black; font-weight:bold">O<sub>3</sub> (8hr)</td>
-<td style="background: #9cf; colour: black; font-weight:bold">CO (8hr)</td>
-<td style="background: #9cf; colour: black; font-weight:bold">SO<sub>2</sub> (24hr)</td>
-<td style="background: #9cf; colour: black; font-weight:bold">NH<sub>3</sub> (24hr)</td>
-<td style="background: #9cf; colour: black; font-weight:bold">Pb (24hr)</td>
-</tr>
-<tr>
-<td style="background:#79bc6a; colour: black">Good (0-50)</td>
-<td style="background:#79bc6a; colour: black">0-50</td>
-<td style="background:#79bc6a; colour: black">0-30</td>
-<td style="background:#79bc6a; colour: black">0-40</td>
-<td style="background:#79bc6a; colour: black">0-50</td>
-<td style="background:#79bc6a; colour: black">0-1.0</td>
-<td style="background:#79bc6a; colour: black">0-40</td>
-<td style="background:#79bc6a; colour: black">0-200</td>
-<td style="background:#79bc6a; colour: black">0-0.5</td>
-</tr>
-<tr>
-<td style="background:#bbcf4c; colour: black">Satisfactory (51-100)</td>
-<td style="background:#bbcf4c; colour: black">51-100</td>
-<td style="background:#bbcf4c; colour: black">31-60</td>
-<td style="background:#bbcf4c; colour: black">41-80</td>
-<td style="background:#bbcf4c; colour: black">51-100</td>
-<td style="background:#bbcf4c; colour: black">1.1-2.0</td>
-<td style="background:#bbcf4c; colour: black">41-80</td>
-<td style="background:#bbcf4c; colour: black">201-400</td>
-<td style="background:#bbcf4c; colour: black">0.5-1.0</td>
-</tr>
-<tr>
-<td style="background: #FFCF00; colour: black">Moderately polluted (101-200)</td>
-<td style="background: #FFCF00; colour: black">101-250</td>
-<td style="background: #FFCF00; colour: black">61-90</td>
-<td style="background: #FFCF00; colour: black">81-180</td>
-<td style="background: #FFCF00; colour: black">101-168</td>
-<td style="background: #FFCF00; colour: black">2.1-10</td>
-<td style="background: #FFCF00; colour: black">81-380</td>
-<td style="background: #FFCF00; colour: black">401-800</td>
-<td style="background: #FFCF00; colour: black">1.1-2.0</td>
-</tr>
-<tr>
-<td style="background: #FF9A00; colour: black">Poor (201-300)</td>
-<td style="background: #FF9A00; colour: black">251-350</td>
-<td style="background: #FF9A00; colour: black">91-120</td>
-<td style="background: #FF9A00; colour: black">181-280</td>
-<td style="background: #FF9A00; colour: black">169-208</td>
-<td style="background: #FF9A00; colour: black">10-17</td>
-<td style="background: #FF9A00; colour: black">381-800</td>
-<td style="background: #FF9A00; colour: black">801-1200</td>
-<td style="background: #FF9A00; colour: black">2.1-3.0</td>
-</tr>
-<tr>
-<td style="background:red; colour: black">Very poor (301-400)</td>
-<td style="background:red; colour: black">351-430</td>
-<td style="background:red; colour: black">121-250</td>
-<td style="background:red; colour: black">281-400</td>
-<td style="background:red; colour: black">209-748</td>
-<td style="background:red; colour: black">17-34</td>
-<td style="background:red; colour: black">801-1600</td>
-<td style="background:red; colour: black">1200-1800</td>
-<td style="background:red; colour: black">3.1-3.5</td>
-</tr>
-<tr>
-<td style="background:brown; colour: black">Severe (401-500)</td>
-<td style="background:brown; colour: black">430+</td>
-<td style="background:brown; colour: black">250+</td>
-<td style="background:brown; colour: black">400+</td>
-<td style="background:brown; colour: black">748+</td>
-<td style="background:brown; colour: black">34+</td>
-<td style="background:brown; colour: black">1600+</td>
-<td style="background:brown; colour: black">1800+</td>
-<td style="background:brown; colour: black">3.5+</td>
-</tr>
+<table style="text-align:left;">
+<tbody>
+	<tr>
+		<td><b>O<sub>3</sub> (ppb)</b></td>
+		<td><b>O<sub>3</sub> (ppb)</b></td>
+		<td><b>PM<sub>2.5</sub> (µg/m<sup>3</sup>)</b></td>
+		<td><b>PM<sub>10</sub> (µg/m<sup>3</sup>)</b></td>
+		<td><b>CO (ppm)</b></td>
+		<td><b>SO<sub>2</sub> (ppb)</b></td>
+		<td><b>NO<sub>2</sub> (ppb)</b></td>
+		<td><b>AQI</b></td>
+		<td><b>AQI</b></td>
+	</tr>
+	<tr>
+		<td><i>C<sub>low</sub></i> - <i>C<sub>high</sub> (avg)</i></td>
+		<td><i>C<sub>low</sub></i> - <i>C<sub>high</sub> (avg)</i></td>
+		<td><i>C<sub>low</sub></i>- <i>C<sub>high</sub> (avg)</i></td>
+		<td><i>C<sub>low</sub></i> - <i>C<sub>high</sub> (avg)</i></td>
+		<td><i>C<sub>low</sub></i> - <i>C<sub>high</sub> (avg)</i></td>
+		<td><i>C<sub>low</sub></i> - <i>C<sub>high</sub> (avg)</i></td>
+		<td><i>C<sub>low</sub></i> - <i>C<sub>high</sub> (avg)</i></td>
+		<td><i>I<sub>low</sub></i> - <i>I<sub>high</sub></i></td>
+		<td><b>Category</b></td>
+	</tr>
+	<tr>
+		<td>0-54 (8-hr)</td>
+		<td>-</td>
+		<td>0.0-12.0 (24-hr)</td>
+		<td>0-54 (24-hr)</td>
+		<td>0.0-4.4 (8-hr)</td>
+		<td>0-35 (1-hr)</td>
+		<td>0-53 (1-hr)</td>
+		<td>0-50</td>
+		<td style="background:#00e400;">Good</td>
+	</tr>
+	<tr>
+		<td>55-70 (8-hr)</td>
+		<td>-</td>
+		<td>12.1-35.4 (24-hr)</td>
+		<td>55-154 (24-hr)</td>
+		<td>4.5-9.4 (8-hr)</td>
+		<td>36-75 (1-hr)</td>
+		<td>54-100 (1-hr)</td>
+		<td>51-100</td>
+		<td style="background:#ff0;">Moderate</td>
+	</tr>
+	<tr>
+		<td>71-85 (8-hr)</td>
+		<td>125-164 (1-hr)</td>
+		<td>35.5-55.4 (24-hr)</td>
+		<td>155-254 (24-hr)</td>
+		<td>9.5-12.4 (8-hr)</td>
+		<td>76-185 (1-hr)</td>
+		<td>101-360 (1-hr)</td>
+		<td>101-150</td>
+		<td style="background:#ff7e00;">Unhealthy for Sensitive Groups</td>
+	</tr>
+	<tr>
+		<td>86-105 (8-hr)</td>
+		<td>165-204 (1-hr)</td>
+		<td>55.5-150.4 (24-hr)</td>
+		<td>255-354 (24-hr)</td>
+		<td>12.5-15.4 (8-hr)</td>
+		<td>186-304 (1-hr)</td>
+		<td>361-649 (1-hr)</td>
+		<td>151-200</td>
+		<td style="background:#f00; color:#fff;">Unhealthy</td>
+	</tr>
+	<tr>
+		<td>106-200 (8-hr)</td>
+		<td>205-404 (1-hr)</td>
+		<td>150.5-250.4 (24-hr)</td>
+		<td>355-424 (24-hr)</td>
+		<td>15.5-30.4 (8-hr)</td>
+		<td>305-604 (24-hr)</td>
+		<td>650-1249 (1-hr)</td>
+		<td>201-300</td>
+		<td style="background:#99004c; color:#fff;">Very Unhealthy</td>
+	</tr>
+	<tr>
+		<td>-</td>
+		<td>405-504 (1-hr)</td>
+		<td>250.5-350.4 (24-hr)</td>
+		<td>425-504 (24-hr)</td>
+		<td>30.5-40.4 (8-hr)</td>
+		<td>605-804 (24-hr)</td>
+		<td>1250-1649 (1-hr)</td>
+		<td>301-400</td>
+		<td style="background:#7e0023; color:#fff;" rowspan="2">Hazardous</td>
+	</tr>
+	<tr>
+		<td>-</td>
+		<td>505-604 (1-hr)</td>
+		<td>350.5-500.4 (24-hr)</td>
+		<td>505-604 (24-hr)</td>
+		<td>40.5-50.4 (8-hr)</td>
+		<td>805-1004 (24-hr)</td>
+		<td>1650-2049 (1-hr)</td>
+		<td>401-500</td>
+	</tr>
+	</tbody>
 </table>
-	
