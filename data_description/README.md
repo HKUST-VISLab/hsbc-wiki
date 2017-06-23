@@ -8,67 +8,67 @@ The fusion of heterogeneous datasets coming from different sources. For example,
 Air-quality data are collected from 14 weather station monitoring the air quality in different regions in Hong Kong, "CL"(Central), "CB"(Causeway Bay), "MK"(Mong Kok),  "TC"(Tung Chung), "YL"(Yuen Long), "TW"(Tsuen Wan), "KC"(Kwai Chung), "CW"(Central Western), "SP"(Sham Shui Po), "TP"(Tai Po), "ST"(Sha Tin), "KT"(Kwun Tong), "EN"(Eastern), "TM"(Tap Mun). There are also 5 automatic weather station. The following data format also works for both static AQ data and AQ prediction. 
 
 
-### AQHI (Air Quality Health Index) provides a number from 1 to 10+ to indicate the level of health risk associated with local air quality.
+###### AQHI (Air Quality Health Index) provides a number from 1 to 10+ to indicate the level of health risk associated with local air quality.
 <table width="100%">
 <tbody width="100%">
    <tr>
-		<th>**Health Risk**</th>
+		<th><p><strong>Health Risk</strong></p></th>
 		<th>
-		<p>**AQHI**</p>
+		<p><strong>AQHI</strong></p>
 		</th>
 		<th>
-		  <p>Health Messages (**Risk Population**)  </p>
+		  <p>Health Messages (<p><strong>Risk Population</strong>)  </p>
 		</th>
 		<th>
-		  <p>Health Messages (**General Population**)</p>
+		  <p>Health Messages (<p><strong>General Population</strong>)</p>
 		</th>
    </tr>
     <tr>
-		<th>**Low**</th>
+		<th><p><strong>Low</strong></p></th>
 		<th>
-		<p>**1–3**</p>
+		<p><strong>1–3</strong></p>
 		</th>
 		<th>
-		  <p>**Enjoy** your usual outdoor activities.</p>
+		  <p><strong>Enjoy</strong> your usual outdoor activities.</p>
 		</th>
 		<th>
-		  <p>**Ideal** air quality for outdoor activities</p>
-		</th>
-   </tr>
-   <tr>
-		<th>**Moderate**</th>
-		<th>
-		<p>**4–6**</p>
-		</th>
-		<th>
-		  <p>**Consider reducing** or rescheduling strenuous activities outdoors if you are experiencing symptoms.</p>
-		</th>
-		<th>
-		  <p>**No need to modify** your usual outdoor activities unless you experience symptoms such as coughing and throat irritation.</p>
+		  <p><strong>Ideal</strong> air quality for outdoor activities</p>
 		</th>
    </tr>
    <tr>
-		<th>**High**</th>
+		<th><p><strong>Moderate</strong></p></th>
 		<th>
-		<p>**7-10**</p>
+		<p><strong>4–6</strong></p>
 		</th>
 		<th>
-		  <p>**Reduce** or reschedule strenuous activities outdoors. Children and the elderly should also take it easy.</p>
+		  <p><strong>Consider reducing</strong> or rescheduling strenuous activities outdoors if you are experiencing symptoms.</p>
 		</th>
 		<th>
-		  <p>**Consider reducing** or rescheduling strenuous activities outdoors if you experience symptoms such as coughing and throat irritation.</p>
+		  <p><strong>No need to modify</strong> your usual outdoor activities unless you experience symptoms such as coughing and throat irritation.</p>
 		</th>
    </tr>
    <tr>
-		<th>**Very high**</th>
+		<th><p><strong>High</strong></p></th>
 		<th>
-		<p>**Above 10**</p>
+		<p><strong>7-10</strong></p>
 		</th>
 		<th>
-		  <p>**Avoid** strenuous activities outdoors. Children and the elderly should also avoid outdoor physical exertion.</p>
+		  <p><strong>Reduce</strong> or reschedule strenuous activities outdoors. Children and the elderly should also take it easy.</p>
 		</th>
 		<th>
-		  <p>**Reduce** or reschedule strenuous activities outdoors, especially if you experience symptoms such as coughing and throat irritation.</p>
+		  <p><strong>Consider reducing</strong> or rescheduling strenuous activities outdoors if you experience symptoms such as coughing and throat irritation.</p>
+		</th>
+   </tr>
+   <tr>
+		<th><p><strong>Very high</strong></p></th>
+		<th>
+		<p><strong>Above 10</strong></p>
+		</th>
+		<th>
+		  <p><strong>Avoid</strong> strenuous activities outdoors. Children and the elderly should also avoid outdoor physical exertion.</p>
+		</th>
+		<th>
+		  <p><strong>Reduce</strong> or reschedule strenuous activities outdoors, especially if you experience symptoms such as coughing and throat irritation.</p>
 		</th>
    </tr> 
    </tbody>
