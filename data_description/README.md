@@ -213,7 +213,7 @@ Air-quality data are collected from 14 weather station monitoring the air qualit
 
 
 <blockquote><p><a href="http://www.EPA.gov">The United States EPA</a> maintain a table of breakpoints in calculating AQI.</p></blockquote>
-<table style="text-align:left;">
+<table>
 <tbody>
 	<tr>
 		<td><b>AQI</b></td>
