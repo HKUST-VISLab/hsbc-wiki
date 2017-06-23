@@ -120,7 +120,7 @@ Air-quality data are collected from 14 weather station monitoring the air qualit
 
 
 
-<blockquote><p> AQI (Air Quality Index) provides a number from 0-500 to indicate air quality, which is divided into six categories indicating increasing levels of health concern and providing health advice by <a href="www.EPA.gov">The United States EPA</a>.</p></blockquote>
+<blockquote><p> AQI (Air Quality Index) provides a number from 0-500 to indicate air quality, which is divided into six categories indicating increasing levels of health concern and providing health advice by <a href="https://cfpub.epa.gov/airnow/index.cfm?action=aqibasics.aqi">The United States EPA</a>.</p></blockquote>
 <table width="100%">
 <tbody width="100%">
    <tr>
@@ -141,7 +141,7 @@ Air-quality data are collected from 14 weather station monitoring the air qualit
 		<p><strong>Good</strong></p>
 		</th>
 		<th>
-		  <p>空氣污染風險很少</p>
+		  <p>Air quality is considered satisfactory, and air pollution poses little or no risk.</p>
 		</th>
 		<th>
 		  <p>Green</p>
@@ -153,7 +153,7 @@ Air-quality data are collected from 14 weather station monitoring the air qualit
 		<p><strong>Moderate</strong></p>
 		</th>
 		<th>
-		  <p>空氣質素可以接受</p>
+		  <p>Air quality is acceptable; however, for some pollutants there may be a moderate health concern for a very small number of people who are unusually sensitive to air pollution.</p>
 		</th>
 		<th>
 		  <p>Yellow</p>
@@ -165,7 +165,7 @@ Air-quality data are collected from 14 weather station monitoring the air qualit
 		<p><strong>Unhealthy for Sensitive Groups</strong></p>
 		</th>
 		<th>
-		  <p>高危人士可能出現健康反應。公眾暫時未受影響。</p>
+		  <p>Members of sensitive groups may experience health effects. The general public is not likely to be affected. </p>
 		</th>
 		<th>
 		  <p>Orange</p>
@@ -177,7 +177,7 @@ Air-quality data are collected from 14 weather station monitoring the air qualit
 		<p><strong>Unhealthy</strong></p>
 		</th>
 		<th>
-		  <p>高危人士可能出現較嚴重健康反應，部分公眾亦可能出現健康反應。</p>
+		  <p>Everyone may begin to experience health effects; members of sensitive groups may experience more serious health effects.</p>
 		</th>
 		<th>
 		  <p>Red</p>
@@ -189,7 +189,7 @@ Air-quality data are collected from 14 weather station monitoring the air qualit
 		<p><strong>Very Unhealthy</strong></p>
 		</th>
 		<th>
-		  <p>公眾出現健康反應。</p>
+		  <p>Health alert: everyone may experience more serious health effects.</p>
 		</th>
 		<th>
 		  <p>Purple</p>
@@ -201,7 +201,7 @@ Air-quality data are collected from 14 weather station monitoring the air qualit
 		<p><strong>Hazardous</strong></p>
 		</th>
 		<th>
-		  <p>部分公眾可能出現較嚴重健康反應。</p>
+		  <p>Health warnings of emergency conditions. The entire population is more likely to be affected.</p>
 		</th>
 		<th>
 		  <p>Maroon</p>
@@ -212,7 +212,7 @@ Air-quality data are collected from 14 weather station monitoring the air qualit
 
 
 
-<blockquote><p><a href="www.EPA.gov">The United States EPA</a> maintain a table of breakpoints in calculating AQI.</p></blockquote>
+<blockquote><p><a href="http://www.EPA.gov">The United States EPA</a> maintain a table of breakpoints in calculating AQI.</p></blockquote>
 <table style="text-align:left;">
 <tbody>
 	<tr>
