@@ -19,6 +19,7 @@
   * SO2: [num (ppb),...,num], to the first decimal point,  hourly concentration
   * WS(Wind Spd): [num (m/s), ..., num], to the first decimal point 
   * WD(Wind Dir): [char (Degree),..., char], "N","NE","E","SE","S","SW","W","NW" 
+
 an example
 >      {
 >          "_id" : ObjectId("59145f9bda8f5d922aa337da"),
