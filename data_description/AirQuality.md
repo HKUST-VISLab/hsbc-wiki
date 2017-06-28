@@ -18,7 +18,7 @@
   * CO: num (ppm), to the first decimal point,  hourly concentration
   * temp(Temperature): num (Deg. C) , to the first decimal point 
   * WS(Wind Spd): num (m/s), to the first decimal point 
-  * WD(Wind Dir): char (Degree), "N", "E", "S", "W" 
+  * WD(Wind Dir): char (Degree), "N","NE","E","SE","S","SW","W","NW" 
 an example
 >      {
 >          "_id" : ObjectId("59145f9bda8f5d922aa337da"),
@@ -26,15 +26,15 @@ an example
 >          "station_name" : "CW",
 >          "AQHI" : 2.0,
 >          "AQI" : 23.0,
->          "RSP" : ,
->          "FSP" : ,
->          "NO2" : 73.4,
->          "SO2" : 14.0,
->          "O3" : 16.6,
->          "CO" : ,
+>          "RSP" : 40.0,
+>          "FSP" : 10.0,
+>          "NO2" : 50.1,
+>          "SO2" : 30.0,
+>          "O3" : 52.1,
+>          "CO" : 2.1,
 >          "temp" : 22.8,
->          "WS" : ,
->          "WD" : 
+>          "WS" : 5.0,
+>          "WD" : "SE"
 >      }
 
 ***
