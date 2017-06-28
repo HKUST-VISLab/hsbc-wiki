@@ -18,14 +18,15 @@
   * NOX: [num (ppb),...,num], to the first decimal point,  hourly concentration  
   * SO2: [num (ppb),...,num], to the first decimal point,  hourly concentration
   * WS(Wind Spd): [num (m/s), ..., num], to the first decimal point 
-  * WD(Wind Dir): [char (Degree),..., char], "N", "E", "S", "W" 
+  * WD(Wind Dir): [char (Degree),..., char], "N","NE","E","SE","S","SW","W","NW" 
 an example
 >      {
 >          "_id" : ObjectId("59145f9bda8f5d922aa337da"),
->          "model": CMAx, 
+>          "model": "CMAx", 
 >          "initial_date" : "2017-06-27 12:00",
+>          "forecast_days" : 1,
 >          "region" : "[113.000, 22.000, 114.000, 23.000]",
->          "domain": 1km,
+>          "domain": 1,
 >          "number_domain": 1000,
 >          "PM2.5" : [10.0, ..., 10.0],
 >          "PM10" : [50.0, ..., 50.0],
@@ -34,5 +35,5 @@ an example
 >          "O3" : [52.1, ..., 52.1],
 >          "CO" : [2.1, ..., 2.1],
 >          "WS" : [5.0, ..., 5.3],
->          "WD" : ["N",...,"N"]
+>          "WD" : ["SE",...,"SE"]
 >      }
