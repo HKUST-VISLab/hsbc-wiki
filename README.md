@@ -1,4 +1,4 @@
-![logo](https://github.com/HKUST-VISLab/hsbc-wiki/blob/master/praise_201703_tagline-1024x230.png
+![logo](https://github.com/HKUST-VISLab/hsbc-wiki/blob/master/imgs/praise_201703_tagline-1024x230.png?raw=true
 )
 
 
@@ -10,7 +10,7 @@ Our goal is to empower the public with personalised air quality information. Air
 
 ## Project Tasks  
 ![logo](
-https://github.com/HKUST-VISLab/hsbc-wiki/blob/master/schematics-949x1024.png
+https://github.com/HKUST-VISLab/hsbc-wiki/blob/master/imgs/schematics-949x1024.png?raw=true
 )
 
 ## GitHub Repo: Urban Informatics and Big Data Analytics
