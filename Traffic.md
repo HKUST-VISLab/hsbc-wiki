@@ -18,12 +18,15 @@ Fetch_time is the time to collect all the 607 road from the data.gov.hk, all the
   * capture_date: time of generating the traffic speed data YYYY-mm-DD HH:MM:SS
   * fetch_time: time of query fetch data.
 an example
->      {
->          "_id" : ObjectId("59145f9bda8f5d922aa337da"),
->          "link_id" : "3006-30069",
->          "region" : "K",
->          "road_saturation_level" : "TRAFFIC AVERAGE",
->          "traffic_speed" : "26",
->          "capture_date" : "2017-05-29 16:20:35",
->          "fetch_time" : "2017-05-29 16:21:54"
->      }
+
+``` json
+{
+    "_id" : ObjectId("59145f9bda8f5d922aa337da"),
+    "link_id" : "3006-30069",
+    "region" : "K",
+    "road_saturation_level" : "TRAFFIC AVERAGE",
+    "traffic_speed" : "26",
+    "capture_date" : "2017-05-29 16:20:35",
+    "fetch_time" : "2017-05-29 16:21:54"
+}
+```
