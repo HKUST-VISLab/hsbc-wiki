@@ -1,4 +1,6 @@
-## Database: hk_weather_data
+# Database: hk_weather_data
+
+This database store the weather data collected from HK official websites as a complementary of the data from project providers. This database has following collections:
 
 - station
 - air_station
@@ -9,10 +11,10 @@
 - last_update
 
 ***
-### station
+## Collection: station
 ###### 54 weather stations
-###### 16 among them has forecast_weather info
-###### others only have current_weather info
+###### 16 among them provide forecast_weather info and others only have current_weather info
+
   * _id: an object id created by mongodb
   * loc: [latitude, longitude], where longitude and latitude are string, to the sixth decimal point
   * webcam_angle: string, a multiple of 45, between [0, 360]
@@ -22,7 +24,7 @@
   * station_code: string, three uppercase letter
   * station_name: string, simplified Chinese
 
-an example
+Example
 >      {
 >          "_id" : ObjectId("59145f9ae177d259648c7fc6"), 
 >          "loc" : ["22.301944", "114.174297"],
