@@ -5,7 +5,7 @@
 
 The project consists following five database:
 
-* [Weather](https://github.com/d3/d3/blob/master/API.md)
+* [Weather and AQ from offical websites](https://github.com/d3/d3/blob/master/API.md)
 * [Air Quality](https://github.com/d3/d3/releases)
 * [Traffic](https://github.com/d3/d3/wiki/Gallery)
 * [POI](https://bl.ocks.org/mbostock)
