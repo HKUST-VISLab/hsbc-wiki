@@ -5,11 +5,11 @@
 
 The project consists following five database:
 
-* [Weather and AQ from offical websites](https://github.com/d3/d3/blob/master/API.md)
-* [Air Quality](https://github.com/d3/d3/releases)
-* [Traffic](https://github.com/d3/d3/wiki/Gallery)
-* [POI](https://bl.ocks.org/mbostock)
-* [Map](https://github.com/d3/d3/wiki)
+* [Weather and AQ from offical websites](https://github.com/HKUST-VISLab/hsbc-wiki/blob/master/database_description/weather_aq_public.md)
+* [Weather and AQ from ENVF](https://github.com/HKUST-VISLab/hsbc-wiki/blob/master/database_description/weather_aq_hkust.md)
+* [Traffic](https://github.com/HKUST-VISLab/hsbc-wiki/blob/master/database_description/Traffic.md)
+* [POI](https://github.com/HKUST-VISLab/hsbc-wiki/blob/master/database_description/POI.md)
+* [Map](https://github.com/HKUST-VISLab/hsbc-wiki/blob/master/database_description/Map.md)
 
 Created by HKUST VISLab, this repo describe the databased design forUrban Informatics and Big Data Analytics (PARISE-HK, Task 3). 
 The databases are designed to store heterogeneous data affecting or describing the air quality in cities. 
