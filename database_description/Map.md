@@ -1,4 +1,4 @@
-## Database: geo_maps
+## Database: geo_maps/traffic
 This database is designed to store geo-based information like the street, node, regions.
 
 - osm_node
